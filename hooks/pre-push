@@ -4,4 +4,4 @@ LOGO=git.png
 if [[ $1 == heroku* ]]; then
   LOGO=heroku.png
 fi
-/usr/local/bin/terminal-notifier -title "Git" -group "git-notify" -appIcon "$LOGO_DIR$LOGO" -message "Commit done"
+/usr/local/bin/terminal-notifier -title "Git" -group "git-notify" -appIcon "$LOGO_DIR$LOGO" -message "Push complete"
